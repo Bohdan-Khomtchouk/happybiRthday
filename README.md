@@ -1,14 +1,10 @@
-<div align="center">
-
 # happybiRthday
 
-<img src="https://user-images.githubusercontent.com/9893806/29244819-281b80d8-7f91-11e7-9166-a31e67fe8928.png" style="width: 50%; height: 50%"/>
+<img src="https://user-images.githubusercontent.com/9893806/29244819-281b80d8-7f91-11e7-9166-a31e67fe8928.png" width="200" height="250">
 
 [![Travis-CI Build Status](https://travis-ci.org/Bohdan-Khomtchouk/happybiRthday.svg?branch=master)](https://travis-ci.org/Bohdan-Khomtchouk/happybiRthday)
 [![MIT license](http://img.shields.io/badge/license-MIT-blue.svg)](http://opensource.org/licenses/MIT)
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/happybiRthday)](https://cran.r-project.org/package=happybiRthday)
-
-</div>
 
 `happybiRthday` is an R package hosted on CRAN (https://cran.r-project.org/web/packages/happybiRthday/index.html) to calculate upcoming birthday dates of Github repos.  Software creation is a big deal!  A repository's initial commit date can be thought of as its birthday.  Next time, drop in and wish a developer (any Github username) a happy birthday of their repo(s).  Or maybe just toast to the upcoming anniversary of your own software repo!  Life is too short not to celebrate the creation of software!
 

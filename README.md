@@ -15,7 +15,7 @@
 ### Usage
 ```R
 library(happybiRthday)
-celebrate("hadley")  # congratulate & thank Hadley Wickham's contributions
+celebrate("hadley")  # congratulate & thank Hadley Wickham for his contributions
 ```
 
 ### Installation instructions

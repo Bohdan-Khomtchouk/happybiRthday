@@ -16,8 +16,8 @@ globalVariables(c("V4", "num"))
 #' @importFrom dplyr arrange
 #'
 #' @examples
-#' celebrate("Bohdan-Khomtchouk")
-#' 
+#' \donttest{celebrate("Bohdan-Khomtchouk")}
+#'
 #' @export
 
 celebrate <- function(github_username) {

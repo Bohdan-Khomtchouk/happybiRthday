@@ -2,7 +2,7 @@
 
 # happybiRthday
 
-<img src="https://user-images.githubusercontent.com/9893806/29244819-281b80d8-7f91-11e7-9166-a31e67fe8928.png">
+<img src="https://user-images.githubusercontent.com/9893806/29244819-281b80d8-7f91-11e7-9166-a31e67fe8928.png" style="width: 50%; height: 50%"/>
 
 [![Travis-CI Build Status](https://travis-ci.org/Bohdan-Khomtchouk/happybiRthday.svg?branch=master)](https://travis-ci.org/Bohdan-Khomtchouk/happybiRthday)
 [![MIT license](http://img.shields.io/badge/license-MIT-blue.svg)](http://opensource.org/licenses/MIT)

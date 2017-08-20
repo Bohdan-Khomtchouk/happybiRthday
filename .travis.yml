@@ -1,0 +1,13 @@
+# .travis.yml for r-travis.
+#
+# If you're looking to use r-travis with your project, DO NOT USE THIS
+# FILE -- use `sample.travis.yml` instead.
+
+language: r
+r:
+  - release
+  - devel
+cache: packages
+warnings_are_errors: false
+sudo: false
+dist: precise

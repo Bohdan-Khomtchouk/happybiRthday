@@ -5,6 +5,7 @@
 
 language: r
 r:
+  - release
   - devel
 cache: packages
 warnings_are_errors: false

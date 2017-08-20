@@ -1,3 +1,5 @@
+globalVariables(c("V4", "num"))
+
 #' Celebrating software birthdays
 #'
 #' Accesses all public repositories belonging to a specific Github user and prints each repository's respective name, age, creation date of initial commit (i.e., repository birthday date), and time remaining until upcoming birthday.
@@ -6,15 +8,16 @@
 #'
 #' @return Returns data frame with repository name, age, creation date, and time remaining until upcoming birthday.
 #'
+#'
+#' @importFrom lubridate month year mday as.duration
+#' @import gh
+#' @importFrom data.table as.data.table
+#' @import tidyr
+#' @importFrom dplyr arrange
+#'
 #' @examples
 #' celebrate("Bohdan-Khomtchouk")
-#'
-#' @import lubridate
-#' @import gh
-#' @import data.table
-#' @import tidyr
-#' @import dplyr
-#'
+#' 
 #' @export
 
 celebrate <- function(github_username) {

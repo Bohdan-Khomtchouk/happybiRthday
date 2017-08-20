@@ -1,0 +1,22 @@
+---
+title: "happybiRthday"
+author: "Bohdan B. Khomtchouk"
+date: "`r Sys.Date()`"
+output: rmarkdown::pdf_document
+vignette: >
+  %\VignetteIndexEntry{happybiRthday}
+  %\VignetteEngine{knitr::rmarkdown}
+  \usepackage[utf8](inputenc)
+---
+
+`happybiRthday` is an R package to essentially do one of two things:
+
+1) Congratulate your friend with the upcoming birthday of their Github package(s)
+2) Toast yourself! (to the upcoming birthday of your own Github package(s))
+
+
+```{r, eval=FALSE}
+library(happybirthday)
+celebrate("Bohdan-Khomtchouk")
+```
+
